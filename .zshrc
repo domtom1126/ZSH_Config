@@ -78,7 +78,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.nvm/nvm.sh
+# source ~/.nvm/nvm.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -123,3 +123,8 @@ export NVM_DIR="$HOME/.nvm"
 
 export EMAIL_ADDRESS=domtom1126@gmail.com
 export EMAIL_PASSWORD=ggl_E11!ps!s
+fpath=($fpath "/Users/dominic./.zfunctions")
+
+# Set typewritten ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt typewritten
