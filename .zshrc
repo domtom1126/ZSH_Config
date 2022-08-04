@@ -102,7 +102,7 @@ export LANG=en_US.UTF-8
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias vim="nvim"
+
 alias ncon="cd ~/.config/nvim"
 alias zshconfig="vi ~/.zshrc"
 alias gs="git status"
